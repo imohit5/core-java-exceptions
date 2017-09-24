@@ -6,8 +6,12 @@ public class StringExceptionDemo {
 		String a="abcdef";
 		
 		System.out.println("start");
+		try {
 		int x= Integer.parseInt(a);
 		System.out.println("result: "+x);
+		} catch (Exception e) {
+			System.out.println("cannot convert");
+		}
 		System.out.println("the end");
 	}
 	
