@@ -1,0 +1,6 @@
+java -ea //To enable assertions
+java -da //To disable assertions
+java -esa //To enable system level assertions
+java -dsa //To disable assertions
+
+#Run Configurations -> Arguments -> VM arguments
